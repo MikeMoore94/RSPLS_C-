@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace RPSLS_C
 {
-    internal class Robots
+    internal class AI
     {
         class AI : Player
         {
             public AI()
             {
-                this.name = "AI";
+                this.name = "Alfred";
             }
         
     }
