@@ -8,5 +8,13 @@ namespace RPSLS_C
 {
     internal class Robots
     {
+        class AI : Player
+        {
+            public AI()
+            {
+                this.name = "AI";
+            }
+        
     }
+}
 }
