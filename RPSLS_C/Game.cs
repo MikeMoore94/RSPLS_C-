@@ -8,5 +8,19 @@ namespace RPSLS_C
 {
     internal class Game
     {
+        Player playerOne;
+        Player playerTwo;
+        public Game()
+        {
+            this.playerOne = SetUpPlayerOne();
+            this.playerTwo = ChooseGameType();
+        }
+
+        public void RunGame()
+        {
+            WelcomeMessage();
+            DisplayRules();
+            PlayGame();
+        }
     }
 }
